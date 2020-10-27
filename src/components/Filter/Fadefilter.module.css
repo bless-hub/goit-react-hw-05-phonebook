@@ -1,0 +1,7 @@
+.appear {
+  transform: scale(0);
+}
+.appearActive {
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
